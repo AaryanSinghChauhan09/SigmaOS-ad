@@ -1,15 +1,10 @@
-# SigmaOS ad
+# SigmaOS-ad
 
-This repository is currently a minimal `no_std` component identity scaffold. Its library exposes a `Component` named `SigmaOS-ad`.
+This repository is a minimal `no_std` component identity scaffold. Its library
+exposes a `Component` named `SigmaOS-ad`; no `ad` command or system utility
+behavior is implemented.
 
-No `ad` command or system utility behavior is implemented in the current source.
+## Development
 
-## Build
-
-```sh
-cargo check --lib
-```
-
-## License
-
-Apache-2.0. See [`Cargo.toml`](Cargo.toml).
+The crate has no third-party dependencies. `cargo check --lib` checks the
+current identity scaffold only. The manifest declares Apache-2.0.
